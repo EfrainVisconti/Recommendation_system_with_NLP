@@ -1,6 +1,6 @@
 ## Sistema de recomendación
 
-Para la realización de un sistema de recomendación que funcione dentro de la plataforma de búsqueda de empleo juvenil propuesta por la BBK en el marco del Desafío de Tripulaciones del Bootcamp de Data Science BBK - The bridge desarrollamos un algoritmo de recomendación personalizada basado en el contenido de datos explícitos. Este modelo se basa en la información importante contenida en el perfil del user (joven que busca empleo) y la información del ítem (proyecto propuesto por una empresa), para lo cual se deben extraer los campos o features necesarias de la Base de Datos que se usarán para hacer la comparación user-item.
+Para la realización de un sistema de recomendación que funcione dentro de la plataforma de búsqueda de empleo juvenil propuesta por la BBK en el marco del **Desafío de Tripulaciones del Bootcamp de Data Science BBK - The bridge** desarrollamos un algoritmo de recomendación personalizada basado en el contenido de datos explícitos. Este modelo se basa en la información importante contenida en el perfil del user (joven que busca empleo) y la información del ítem (proyecto propuesto por una empresa), para lo cual se deben extraer los campos o features necesarias de la Base de Datos que se usarán para hacer la comparación user-item.
 
 El resultado final fue un algoritmo que para cada usuario genera una lista de proyectos recomendados, mejorando la posibilidad de ser empleado a través de la plataforma y su experiencia de usuario.
 
@@ -42,6 +42,20 @@ Para realizar lo anterior de la mejor forma posible, usamos un preprocesamiento 
 - Aplicar lematización, que consiste en reducir las palabras a su forma base teniendo en cuenta contexto y estructura gramatical, lo que permite tratar palabras relacionadas de manera uniforme.
 
 Una vez hechas las comparaciones y cálculos, se crea un score dado por la suma de la similitud coseno y la similitud Jaccard, que nos indicará esos proyectos que más coinciden con nuestro user y de esa forma retornar las k mejores recomendaciones.
+
+
+## Mejoras
+	
+- Ubicacion geografica:	Usar la direccion de la empresa asociada al proyecto y la direccion del estudiante/joven.
+
+- Disponibilidad en tiempo:	Usar la informacion de si el estudiante esta haciendo un proyecto actualmente, cuando termina este proyecto y cuando empieza el proximo a recomendar.
+
+- Experiencia: Tener en cuenta si el estudiante esta graduado y si tiene experiencia o no y si el perfil del proyecto lo requiere.
+
+- Usar OCR para procesar directamente el texto en los CV que suban los estudiantes en formato pdf.
+
+- Hacer un algoritmo similar para que recomiende perfiles a las empresas añadiendo otros campos de interes como los logros del estudiante.
+
 
 https://github.com/EfrainVisconti/Recommendation_system_with_NLP/assets/144735628/e0510968-6c87-4606-b903-67b749d4d3b0
 
