@@ -45,7 +45,7 @@ Una vez hechas las comparaciones y cálculos, se crea un score dado por la suma 
 
 
 ## Mejoras
-	
+
 - Ubicacion geografica:	Usar la direccion de la empresa asociada al proyecto y la direccion del estudiante/joven.
 
 - Disponibilidad en tiempo:	Usar la informacion de si el estudiante esta haciendo un proyecto actualmente, cuando termina este proyecto y cuando empieza el proximo a recomendar.
@@ -55,7 +55,3 @@ Una vez hechas las comparaciones y cálculos, se crea un score dado por la suma 
 - Usar OCR para procesar directamente el texto en los CV que suban los estudiantes en formato pdf.
 
 - Hacer un algoritmo similar para que recomiende perfiles a las empresas añadiendo otros campos de interes como los logros del estudiante.
-
-
-https://github.com/EfrainVisconti/Recommendation_system_with_NLP/assets/144735628/e0510968-6c87-4606-b903-67b749d4d3b0
-
