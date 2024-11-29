@@ -55,3 +55,5 @@ Una vez hechas las comparaciones y cálculos, se crea un score dado por la suma 
 - Usar OCR para procesar directamente el texto en los CV que suban los estudiantes en formato pdf.
 
 - Hacer un algoritmo similar para que recomiende perfiles a las empresas añadiendo otros campos de interes como los logros del estudiante.
+
+![Video of algorithm working](video_algorithm_working.mp4)
